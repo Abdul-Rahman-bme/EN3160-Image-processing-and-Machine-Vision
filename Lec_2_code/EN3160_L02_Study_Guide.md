@@ -1,11 +1,7 @@
 # EN3160 — L02: Point Operations — Study Guide
 
-Scope: this covers exactly what's in your L02 slide deck (digital images, color, camera/Bayer,
-color models, intensity transformations, histograms). At the end I map each topic to Tutorial 1
-questions — I explain the *method* with a different worked example, not the tutorial's actual
-numbers, since tutorials are graded (20% of your continuous assessment).
-
----
+Scope: covers exactly L02 slide deck (digital images, color, camera/Bayer,
+color models, intensity transformations, histograms).
 
 ## 1. What a Digital Image Actually Is
 
@@ -343,8 +339,6 @@ g = t[f]                                                          # manual, usin
 
 ## How this maps onto Tutorial 1
 
-Going through Tutorial 1's structure and pointing you to the right tool above — **without
-solving the graded questions for you**:
 
 - **Q1(a)** (gamma value + justification, window visibility): pure application of §11. Look at
   whether the *overall* image got brighter or darker, then reason about which regions (dark vs.
@@ -380,5 +374,3 @@ solving the graded questions for you**:
   is a windowing problem structurally identical to §10 but with input range up to 65,535 instead
   of 255 — same 3-segment logic, larger numbers.
 
-If you upload the linear filtering / interpolation slide deck, I can build the same kind of
-guide for those topics so the rest of Tutorial 1 is fully covered too.
